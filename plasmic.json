@@ -499,7 +499,8 @@
           "componentImportPath": "./components/PhoneInput"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "8PtdGodUbexNYgkuyBUcWu",
@@ -523,6 +524,85 @@
       ],
       "customFunctions": [],
       "jsBundleThemes": []
+    },
+    {
+      "projectId": "b8xkEHrDAVAX8PJFrG8ohz",
+      "projectApiToken": "nin4EIs7KFjDHfjm53vZkEqyUj4LAVOIbxCQKANRcxgieOgJj8C9WRNu8oPhyLzqoWOr8l1hduZyaDdGlEg",
+      "projectName": "senat-findevie.mdaeschlimann.com",
+      "version": "latest",
+      "cssFilePath": "plasmic/senat_findevie_mdaeschlimann_com/plasmic.module.css",
+      "components": [
+        {
+          "id": "44sVaac9qPjS",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "b8xkEHrDAVAX8PJFrG8ohz",
+          "renderModuleFilePath": "plasmic/senat_findevie_mdaeschlimann_com/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/senat_findevie_mdaeschlimann_com/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "UnIem2rLOR-_",
+          "name": "MentionsLegalesEtPolitiqueDeConfidentialite",
+          "type": "managed",
+          "projectId": "b8xkEHrDAVAX8PJFrG8ohz",
+          "renderModuleFilePath": "plasmic/senat_findevie_mdaeschlimann_com/PlasmicMentionsLegalesEtPolitiqueDeConfidentialite.tsx",
+          "importSpec": {
+            "modulePath": "../pages/mentions-legales-et-politique-de-confidentialite.tsx"
+          },
+          "cssFilePath": "plasmic/senat_findevie_mdaeschlimann_com/PlasmicMentionsLegalesEtPolitiqueDeConfidentialite.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/mentions-legales-et-politique-de-confidentialite"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "XuZ3GXVX-1Ra",
+          "name": "2023-449-120-SK.jpg",
+          "filePath": "../public/plasmic/senat_findevie_mdaeschlimann_com/images/_2023449120SKjpg.jpg"
+        },
+        {
+          "id": "VPy1gMwjS9c8",
+          "name": "2023-0499-096-CL.jpg",
+          "filePath": "../public/plasmic/senat_findevie_mdaeschlimann_com/images/_20230499096CLjpg.jpg"
+        },
+        {
+          "id": "nLZAJKg9PCCx",
+          "name": "conseil-senatorial.jpg",
+          "filePath": "../public/plasmic/senat_findevie_mdaeschlimann_com/images/conseilSenatorialjpg.jpg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/senat_findevie_mdaeschlimann_com/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "bUMBg8zBxVde",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "M43pQ8kgjm-A",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "3D_jV-35yJ0N",
+          "name": "PhoneInput",
+          "displayName": "PhoneInput",
+          "componentImportPath": "./components/PhoneInput"
+        }
+      ],
+      "customFunctions": []
     }
   ],
   "globalVariants": {
@@ -532,6 +612,12 @@
         "name": "Screen",
         "projectId": "2yr4aVZ2x1Tc7VYQCrTrMc",
         "contextFilePath": "plasmic/senat_cs_2_mdaeschlimann_com/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "GWQCmsblYtlP",
+        "name": "Screen",
+        "projectId": "b8xkEHrDAVAX8PJFrG8ohz",
+        "contextFilePath": "plasmic/senat_findevie_mdaeschlimann_com/PlasmicGlobalVariant__Screen.tsx"
       }
     ]
   },
