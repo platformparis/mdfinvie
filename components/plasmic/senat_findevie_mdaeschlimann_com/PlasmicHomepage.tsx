@@ -679,7 +679,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           </div>
                         }
                         name={"profession"}
-                        rules={[{ ruleType: "required", message: "Requis" }]}
+                        rules={[]}
                       >
                         {(() => {
                           const child$Props = {
@@ -735,7 +735,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           </div>
                         }
                         name={"mandat"}
-                        rules={[{ ruleType: "required", message: "Requis" }]}
+                        rules={[]}
                       >
                         {(() => {
                           const child$Props = {
