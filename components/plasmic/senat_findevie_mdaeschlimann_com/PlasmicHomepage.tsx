@@ -342,7 +342,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             const actionArgs = {
                               dataOp: {
                                 sourceId: "ddBdpqNybrhmL3gA2tP2BN",
-                                opId: "64f187df-c560-4c75-b510-45e6e9696777",
+                                opId: "1777d735-b325-4414-8c6b-3631395365cf",
                                 userArgs: {
                                   body: [values]
                                 },
@@ -897,7 +897,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
               >
                 {
-                  "Nous avons bien re\u00e7u votre formulaire.\nMerci pour votre inscription au \nConseil s\u00e9natorial de Marie-Do Aeschlimann."
+                  "Nous avons bien re\u00e7u votre formulaire.\n\nMerci pour votre inscription au \nGroupe de travail de Marie-Do Aeschlimann."
                 }
               </div>
             ) : null}
