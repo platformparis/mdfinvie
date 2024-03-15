@@ -271,9 +271,9 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayWidth={"auto"}
                 loading={"lazy"}
                 src={{
-                  src: "/plasmic/senat_findevie_mdaeschlimann_com/images/conseilSenatorialjpg.jpg",
-                  fullWidth: 2476,
-                  fullHeight: 1382,
+                  src: "/plasmic/senat_findevie_mdaeschlimann_com/images/photo20240315093040Jpg.jpg",
+                  fullWidth: 1600,
+                  fullHeight: 900,
                   aspectRatio: undefined
                 }}
               />
