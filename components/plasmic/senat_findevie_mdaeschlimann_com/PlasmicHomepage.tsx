@@ -288,10 +288,38 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.h1
               )}
             >
-              {"Groupe de travail sur\nla fin de vie et les soins palliatifs"}
+              {
+                "Visite de l'unit\u00e9 de soins palliatifs du Centre hospitalier\nRives de Seine"
+              }
             </h1>
           </div>
           <div className={classNames(projectcss.all, sty.freeBox__kess)}>
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__vl9Bh
+              )}
+            >
+              <React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"1 boulevard Richard Wallace, Puteaux"}
+                </span>
+                <React.Fragment>{"\n"}</React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"vendredi 3 mai \u00e0 16h00"}
+                </span>
+                <React.Fragment>
+                  {"\n(nombre de places limit\u00e9)"}
+                </React.Fragment>
+              </React.Fragment>
+            </div>
             {(() => {
               try {
                 return (() => {
