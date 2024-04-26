@@ -289,7 +289,7 @@ function PlasmicHomepage__RenderFunc(props: {
               )}
             >
               {
-                "Visite de l'unit\u00e9 de soins palliatifs du Centre hospitalier\nRives de Seine"
+                "Visite de l'unit\u00e9 de soins palliatifs\ndu Centre hospitalier\nRives de Seine"
               }
             </h1>
           </div>
