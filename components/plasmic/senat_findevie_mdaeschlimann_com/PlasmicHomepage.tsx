@@ -924,9 +924,21 @@ function PlasmicHomepage__RenderFunc(props: {
                   sty.merci
                 )}
               >
-                {
-                  "Nous avons bien re\u00e7u votre formulaire.\n\nMerci pour votre inscription au \nGroupe de travail de Marie-Do Aeschlimann."
-                }
+                <React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "#A8002A", fontWeight: 700 }}
+                  >
+                    {"Nous avons bien re\u00e7u votre formulaire."}
+                  </span>
+                  <React.Fragment>{"\n"}</React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "#A8002A", fontWeight: 700 }}
+                  >
+                    {"Merci pour votre inscription \u00e0 la visite."}
+                  </span>
+                </React.Fragment>
               </div>
             ) : null}
           </div>
